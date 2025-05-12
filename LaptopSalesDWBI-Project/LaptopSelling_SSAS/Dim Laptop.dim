@@ -1,0 +1,529 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4031ee7c-a2c2-45ed-af52-b3d2dc7950b8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Laptop</ID>
+  <Name>Dim Laptop</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="336" scrolltop="1517" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="7382" y="7541" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimLaptop" left="5666" top="925" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="3493" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000a50d000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimLaptop" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimLaptopBrand" left="33" top="7400" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3360" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000200d0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimLaptopBrand" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimLaptopModel" left="20" top="0" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="3387" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00003b0d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimLaptopModel" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3107" top="2101" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="2859" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DimLaptop-DimLaptopModel]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="19" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3407" y="2500" />
+              <point x="4607" y="2500" />
+              <point x="4607" y="2584" />
+              <point x="5666" y="2584" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1314" top="4700" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DimLaptopModel-DimLaptopBrand]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1713" y="7400" />
+              <point x="1713" y="5000" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>336</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>1517</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="150">
+            <Shape Id="Laptop SK" Expanded="false">
+              <Attributes>
+                <Attribute Id="Laptop SK" />
+                <Attribute Id="Alternate Brand ID" />
+                <Attribute Id="Alternate Laptop ID" />
+                <Attribute Id="Alternate Model ID" />
+                <Attribute Id="Brand Key" />
+                <Attribute Id="Country" />
+                <Attribute Id="Discount" />
+                <Attribute Id="Model Key" />
+                <Attribute Id="Price" />
+                <Attribute Id="Processor Type" />
+                <Attribute Id="Ram Size" />
+                <Attribute Id="Screen Size" />
+                <Attribute Id="Storage Size" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Laptop Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Laptop Name" />
+              </Attributes>
+              <Position x="212" y="20" />
+            </Shape>
+            <Shape Id="Model Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Model Name" />
+              </Attributes>
+              <Position x="405" y="20" />
+            </Shape>
+            <Shape Id="Brand Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Brand Name" />
+              </Attributes>
+              <Position x="597" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="31ee8ecb-724f-4098-86c3-bc1db7ccbf09">
+    <DataSourceViewID>DSV_LaptopSellingDW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="273e584f-181d-413d-ab13-5b3396617f55">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="5cf14a87-94e4-485f-981b-54cb7d11886f">
+      <ID>Laptop SK</ID>
+      <Name>Laptop SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cc453823-3c54-49c5-a35a-cffeb30651f2">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="44e77942-48fe-4183-8053-d066843d5dff">
+            <TableID>dbo_DimLaptop</TableID>
+            <ColumnID>LaptopSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3356ca57-9d74-42e9-bc90-d59af4149af1">
+          <AttributeID>Alternate Model ID</AttributeID>
+          <Name>Alternate Model ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d2ea2d52-d279-473b-b173-55d311babc21">
+          <AttributeID>Brand Key</AttributeID>
+          <Name>Brand Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e225a218-8221-4419-9396-9fb40e25e3c7">
+          <AttributeID>Processor Type</AttributeID>
+          <Name>Processor Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d762e1d5-db29-4245-885c-d0d51477ddc7">
+          <AttributeID>Ram Size</AttributeID>
+          <Name>Ram Size</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0595e870-fc6e-474e-8e71-bf5d3f873723">
+          <AttributeID>Storage Size</AttributeID>
+          <Name>Storage Size</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fab7e654-8316-45f0-a03f-627aa848c8ed">
+          <AttributeID>Screen Size</AttributeID>
+          <Name>Screen Size</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6d144d07-8c03-47ae-a754-21c9664f5088">
+          <AttributeID>Alternate Laptop ID</AttributeID>
+          <Name>Alternate Laptop ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="aec211c7-1155-42b0-b6e4-66607be3be9f">
+          <AttributeID>Model Key</AttributeID>
+          <Name>Model Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e2c3b803-c038-46d3-aafd-3ebed3d35fe4">
+          <AttributeID>Price</AttributeID>
+          <Name>Price</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fb96ebe3-ac12-4b37-a1a2-5430095dc88d">
+          <AttributeID>Discount</AttributeID>
+          <Name>Discount</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="02a15932-e2bd-4723-963b-1446529fc12c">
+          <AttributeID>Alternate Brand ID</AttributeID>
+          <Name>Alternate Brand ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="df1d2769-14f4-4f32-b955-c724ae037179">
+          <AttributeID>Country</AttributeID>
+          <Name>Country</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="373a7bb3-3384-470c-876c-819fa0704b44">
+          <AttributeID>Laptop Name</AttributeID>
+          <Name>Laptop Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="84f045c7-b7e8-44e6-a3d2-dd831caab163">
+      <ID>Alternate Model ID</ID>
+      <Name>Alternate Model ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="06b899fd-1450-400f-b78d-a92a1d9abd4b">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6d71eb24-fde4-4a78-a754-8f1438ce11cb">
+            <TableID>dbo_DimLaptopModel</TableID>
+            <ColumnID>AlternateModelID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9b28b292-dbdd-43d4-bb73-bd103f5b7370">
+      <ID>Brand Key</ID>
+      <Name>Brand Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="739d2033-d836-4b0f-ad66-880fae666e97">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4bd738f5-7759-4834-804a-07e5ec1261ab">
+            <TableID>dbo_DimLaptopModel</TableID>
+            <ColumnID>BrandKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3df3b81b-d619-4702-95b9-41a1613f8245">
+      <ID>Processor Type</ID>
+      <Name>Processor Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9002a642-b96b-45bb-a241-c39f985821de">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="22e75094-84c1-4581-9601-c59021b4b3f3">
+            <TableID>dbo_DimLaptopModel</TableID>
+            <ColumnID>Processor_Type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="01c0293d-d1f4-4b23-a881-69751f3c0577">
+      <ID>Ram Size</ID>
+      <Name>Ram Size</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f4e7cb72-ecd6-4302-8403-945321c10809">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="15708789-5c88-4d3e-a1d4-4d5cddc64cae">
+            <TableID>dbo_DimLaptopModel</TableID>
+            <ColumnID>Ram_Size</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e8ecf374-965e-4dec-ac7d-75c482c68bf9">
+      <ID>Storage Size</ID>
+      <Name>Storage Size</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="79ac2b41-fe64-426f-8a99-ee50a7f4e2af">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="15e22fef-1602-4150-99d3-7b6f7e73e50b">
+            <TableID>dbo_DimLaptopModel</TableID>
+            <ColumnID>Storage_Size</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1ecccb4d-6bcc-4865-a2d6-bafb7ffa134f">
+      <ID>Screen Size</ID>
+      <Name>Screen Size</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7d3635e4-3763-47a2-80e4-31d58720b782">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5275823b-408a-4fc9-b6b1-8e30d42419d4">
+            <TableID>dbo_DimLaptopModel</TableID>
+            <ColumnID>Screen_Size</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="111906fc-10d9-439f-b584-d3c8110e40e2">
+      <ID>Alternate Laptop ID</ID>
+      <Name>Alternate Laptop ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f27159b2-0975-458c-b93a-887367fca7b6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="947e7279-3f28-45c7-a6c7-16c6a8c465d3">
+            <TableID>dbo_DimLaptop</TableID>
+            <ColumnID>AlternateLaptopID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="347e61de-3495-4792-b912-ed7723ffabb2">
+      <ID>Model Key</ID>
+      <Name>Model Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0e051d77-6e65-4bad-aa66-a6d39bf351d3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="34b30b94-2d8d-4d66-9e9a-b7442a5ed351">
+            <TableID>dbo_DimLaptop</TableID>
+            <ColumnID>ModelKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0aa62e4d-b456-4a4d-a768-1dc27031fcf6">
+      <ID>Price</ID>
+      <Name>Price</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f6652ce5-47c6-4b32-a8f1-ec3f9e14eafa">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="691a36b5-9b0b-46ae-934f-24c514f7b5b9">
+            <TableID>dbo_DimLaptop</TableID>
+            <ColumnID>Price</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b606bd03-48eb-47d0-88b1-4f7bea72d006">
+      <ID>Discount</ID>
+      <Name>Discount</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1a11d261-8d61-4fad-803e-a1798d13cab3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c55d9bdb-3c2c-4bd0-82de-15379315df8b">
+            <TableID>dbo_DimLaptop</TableID>
+            <ColumnID>Discount</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c38dc833-827c-4f5b-b298-724cede6e5e6">
+      <ID>Alternate Brand ID</ID>
+      <Name>Alternate Brand ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9837b274-9ba3-48ad-946f-0ef8080ab56d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f4787646-b130-445d-9ca0-ab927baff5f8">
+            <TableID>dbo_DimLaptopBrand</TableID>
+            <ColumnID>AlternateBrandID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bca50861-0c02-4c24-8846-936f8ad67e0a">
+      <ID>Country</ID>
+      <Name>Country</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="205f4893-cf1c-4569-bb35-2f2689be9d93">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="07a5e1ff-6549-492c-a6fb-2fb68cb94256">
+            <TableID>dbo_DimLaptopBrand</TableID>
+            <ColumnID>Country</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7a7ea86d-7768-4d0d-ba28-d7e7cc67ef56">
+      <ID>Model Name</ID>
+      <Name>Model Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9da32bd3-f92d-4289-bce3-df7b2b7a171a">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="943c4fb1-b947-446c-ae73-90b894f3835f">
+            <TableID>dbo_DimLaptopModel</TableID>
+            <ColumnID>Model_Name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bddc4f10-80b7-4658-b1c1-44c2836d1e4d">
+          <AttributeID>Brand Name</AttributeID>
+          <Name>Brand Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fd319d32-a173-49b3-9f8b-8a4f728d58a9">
+      <ID>Brand Name</ID>
+      <Name>Brand Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8832cd83-1cef-43e0-96a6-eb7218d69b83">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9fab2cbe-e91c-4b47-9874-1ea3c2c2afc6">
+            <TableID>dbo_DimLaptopBrand</TableID>
+            <ColumnID>Brand_Name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="331e272b-bde7-4a16-9a2c-05a211d0036a">
+      <ID>Laptop Name</ID>
+      <Name>Laptop Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e6ca8ce9-a5b7-468d-a398-9a692d353e0e">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ccef4654-a2cc-4e49-8725-f2d56a7d1dc1">
+            <TableID>dbo_DimLaptop</TableID>
+            <ColumnID>Laptop_Name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="dcc73864-98f5-4f46-bca5-83be5ad6a57e">
+          <AttributeID>Model Name</AttributeID>
+          <Name>Model Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="80d8a7bc-fafd-4442-81f4-8f7caad35e84">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="5514353c-c01e-4bdb-8e1b-6101460077e2">
+          <ID>Laptop Name</ID>
+          <Name>Laptop Name</Name>
+          <SourceAttributeID>Laptop Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="b06cb305-7feb-4de6-aba1-27f5c1893a1f">
+          <ID>Model Name</ID>
+          <Name>Model Name</Name>
+          <SourceAttributeID>Model Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="91f9a3fb-9be1-41f3-a6e4-8e83d383afc1">
+          <ID>Brand Name</ID>
+          <Name>Brand Name</Name>
+          <SourceAttributeID>Brand Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
