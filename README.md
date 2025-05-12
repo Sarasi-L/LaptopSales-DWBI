@@ -10,7 +10,7 @@ The project simulates a real-world retail environment with data sourced from 7 C
 
 - 💾 **Data Warehouse Design**: Snowflake schema with hierarchical product modeling (Brand → Model → Laptop)
 - ⚙️ **ETL Process**: Built with SQL Server Integration Services (SSIS) to load data from CSV/TXT files into a normalized SQL Server source database (`Laptop_Selling_SourceDB`)
-- 🔁 **Slowly Changing Dimensions (SCD Type 2)**: Implemented for `Customer`, `Laptop` and 'Supplier' dimensions to preserve historical changes
+- 🔁 **Slowly Changing Dimensions (SCD Type 2)**: Implemented for `Customer`, `Laptop` and `Supplier` dimensions to preserve historical changes
 - 📦 **OLAP Cube (SSAS)**: Multidimensional data model for time-based and product-based analysis
 - 📊 **Power BI Dashboards**: Visual reports with slicers, KPIs, drill-downs, and cascading filters
 
